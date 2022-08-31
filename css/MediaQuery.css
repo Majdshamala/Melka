@@ -1,0 +1,202 @@
+﻿@media (min-width: 1200px) {
+    .footerlink {
+        padding: 60px 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .editform {
+        width: 670px;
+    }
+    .signin>div {
+        width: 670px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .footerlink {
+        padding: 60px 36px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {}
+
+@media (max-width: 992px) {
+    .companyinfo {
+        text-align: center;
+    }
+    .whatforget img {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribtion .input-group {
+        width: 100%;
+    }
+    .spec-type {
+        display: none;
+    }
+    .infochoose {
+        display: block;
+        margin: 0 20px;
+    }
+    .links {
+        float: left;
+        padding: 23px 0px;
+        width: 100%;
+    }
+    .links>a {
+        padding: 10px 9px;
+    }
+    .linkside a {
+        float: right;
+    }
+    .logo img {
+        margin-top: 9px;
+    }
+    .choosegender i {
+        top: 11px;
+        right: 11px;
+        background-size: 24px 24px;
+    }
+    .choosegender>a {
+        padding: 30%;
+        background: #fff;
+        height: auto;
+        padding: 20% 30%;
+    }
+    .infochoose {
+        display: block !important;
+        margin: 0 20px;
+        margin-bottom: 0px;
+        margin-bottom: 32px;
+    }
+    .footerlink {
+        padding: 20px 15px;
+    }
+    .footerlink a {
+        text-align: center;
+    }
+    .subscribtion .input-group {
+        margin-top: 15px;
+    }
+    .socialicon {
+        margin-top: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .choosegender i {
+        display: block;
+    }
+    .choosegender>a {
+        border-radius: 15px;
+    }
+    .choosegender span {
+        display: none;
+    }
+    .infochoosep {
+        padding: 12px 20px;
+    }
+    .infochoose {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .signin>div {
+        padding: 0 0px;
+    }
+    .profileimg div {
+        float: none;
+        margin-right: 0;
+        margin-top: 9px;
+    }
+    .profileimg img {
+        float: none;
+    }
+    .profileimg {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .socialcontainer>div {
+        float: none !important;
+        margin: auto;
+        display: inline-block;
+    }
+    .socialcontainer {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+    }
+    .profileimg i,
+    .profileimg label {
+        bottom: auto;
+        right: 42%;
+        top: 0px;
+    }
+    .clicktocontact a {
+        margin-top: 0;
+        float: none;
+        overflow: hidden;
+        display: block;
+        height: 36px;
+    }
+    .clicktocontact {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+    .dreamnow p {
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .dreamnow {
+        text-align: center;
+    }
+    .wife>div {
+        margin-bottom: 30px;
+    }
+    .wifeinfo {}
+    .wifeinfo img {
+        width: 100%;
+    }
+    .terms p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .skincolor .radio-container input[type="radio"]:checked+label::after {
+        left: 22%;
+    }
+    .editform>div {
+        padding: 0 0;
+    }
+    .pay {
+        padding: 15px;
+    }
+    .pay {
+        padding-bottom: 50px !important;
+    }
+    .profileimg i,
+    .profileimg label {
+        right: 39%;
+    }
+    .wife {
+        padding: 3px;
+    }
+    .wifeinfo {
+        padding: 3px;
+    }
+    .wives {
+        padding: 52px 17px;
+    }
+    .submitspec {
+        margin-left: 0;
+        width: 100%;
+    }
+    .whatforget div a {
+        width: 80%;
+    }
+}

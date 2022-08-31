@@ -1,0 +1,1346 @@
+﻿html,
+html a {
+    text-decoration: none !important;
+    text-rendering: geometricprecision;
+}
+
+a {
+    transition: all .2s;
+}
+
+a:hover {
+    color: inherit;
+}
+
+body {
+    background: #303030;
+    color: #fff;
+    font-family: regular;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none !important;
+}
+
+.clearb {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1056px;
+}
+
+.logo {}
+
+.logo img {
+    width: 96px;
+    height: 70px;
+    margin-top: 29px;
+}
+
+.linkside {
+    border: none;
+    box-shadow: none;
+}
+
+.links {
+    float: left;
+    padding: 23px 20px;
+}
+
+.links a {}
+
+.links a.active {
+    color: #8C68CA !important;
+}
+
+.links .dropdown-menu {
+    background: #606060;
+}
+
+.links .dropdown-menu li {}
+
+.links .dropdown-menu li a {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.body {
+    margin-top: 40px;
+}
+
+.choosegender {
+    position: relative;
+}
+
+.choosegender>a {
+    background: linear-gradient(90deg, rgba(243, 114, 189, .05) 0%, rgba(8, 116, 196, .05) 100%);
+    display: block;
+    height: auto;
+    text-align: center;
+    border-radius: 85px;
+    padding: 70px;
+    transition: all .3s;
+    padding-top: 38px;
+    display: block;
+}
+
+.choosegender>a img {
+    transition: all .3s;
+    margin-top: 40px;
+    filter: brightness(19%);
+    transition: all .2s;
+}
+
+.male {}
+
+.female {}
+
+.choosegender i {
+    position: absolute;
+    top: 16px;
+    right: 26px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+
+.infochoose {
+    background: linear-gradient(90deg, rgba(8, 116, 196, .5) 0%, rgba(243, 114, 189, .5) 100%);
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.homepage .infochoose {
+    display: none;
+}
+
+.spec-type {
+    margin-bottom: 29px;
+}
+
+.spec-gender {
+    padding: 0 60px;
+}
+
+.spec-gender p {
+    text-align: center;
+    padding: 13px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.spec-gender p a {
+    color: #fff;
+}
+
+.spec-male p {
+    background: #0874C4;
+}
+
+.spec-female p {
+    background: #F372BD;
+}
+
+.infochoose {}
+
+.infochoosep {
+    text-align: center;
+    padding: 32px 20px;
+    font-size: 20px;
+}
+
+.infochoosep p {
+    margin-bottom: 0;
+}
+
+footer {
+    margin-top: 27px;
+}
+
+.footer {
+    background: #474747;
+    min-height: 200px;
+}
+
+.companyinfo {}
+
+.companyinfo .logo {
+    margin-top: 22px;
+}
+
+.companyinfo p {
+    font-size: 12px;
+}
+
+.footerlink {
+    padding-top: 52px;
+    font-family: light;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 60px 126px;
+}
+
+.footerlink a {
+    color: #fff;
+    display: block;
+}
+
+.subscribtion {}
+
+.subscribtion .input-group {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 64px;
+    padding: 4px;
+}
+
+.subscribtion input {
+    background: none;
+    border: none;
+    text-align: right;
+    padding: 10px 13px;
+    color: #fff;
+    margin-left: 6px;
+    float: right;
+}
+
+.subscribtion input:focus {
+    background: none;
+    color: #fff;
+}
+
+.subscribtion span button {
+    border-radius: 7px;
+    transition: all .2s;
+}
+
+.subscribtion span:hover button {
+    color: #fff;
+    background: #7c57bb;
+}
+
+.subscribtion button {
+    background: #8C68CA;
+    border-radius: 8px;
+    padding: 6px 28px;
+    color: #fff;
+    font-size: 15px;
+    font-family: light;
+}
+
+.socialicon {
+    margin-top: 16px;
+}
+
+.socialicon a {
+    transition: all .2s;
+    background: #8C68CA;
+    width: 32px;
+    display: inline-block;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 7px;
+}
+
+.socialicon a:hover {
+    background: #7c57bb;
+}
+
+.socialicon a img {
+    width: 14px;
+}
+
+.copyright {}
+
+.copyright p {
+    text-align: center;
+    font-size: 11px;
+    padding: 9px;
+    margin: 0;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/menu.svg) !important;
+}
+
+.navbar-toggler {
+    border-color: none !important;
+}
+
+.navbar-toggler:active {
+    border-color: none !important;
+}
+
+.navbar-toggler:focus {
+    border-color: none !important;
+}
+
+header .dropdown-menu {
+    right: -97px;
+    border-radius: 6px !important;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: #8a8a8a;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #595959;
+    border-radius: 4px 4px 0 0;
+}
+
+.choosegender>a:hover {
+    background: linear-gradient(90deg, rgba(243, 114, 189, .1) 0%, rgba(8, 116, 196, .1) 100%);
+}
+
+.navbar-default {
+    margin-top: 29px;
+}
+
+.profileimg {
+    position: relative;
+    overflow: hidden;
+}
+
+.profileimg img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: right;
+    width: auto;
+    height: 100%;
+    min-height: 100px;
+}
+
+.profileimg i,
+.profileimg label {
+    background: url(../images/upload.svg) no-repeat;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.profileimg div {
+    float: right;
+    margin-right: 18px;
+    margin-top: 27px;
+}
+
+.profileimg p {
+    font-size: 17px;
+}
+
+.profileimg span {
+    font-family: light;
+    font-size: 13px;
+}
+
+.clicktocontact {}
+
+.clicktocontact a {
+    margin-top: 33px;
+    float: right;
+}
+
+.clicktocontact a span {
+    color: #fff;
+    font-size: 15px;
+}
+
+.love {
+    background: #F7A1D3 url(../images/love.svg) no-repeat center;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    margin: 0 4px;
+    transition: all .2s;
+}
+
+.love:hover {
+    background: #d684b4 url(../images/love.svg) no-repeat center;
+}
+
+.dreamnow {}
+
+.dreamnow p {
+    background-color: #F372BD;
+    background-image: linear-gradient(90deg, #F372BD 0%, #0874C4 100%);
+    background-size: 100%;
+    float: left;
+    border-radius: 22px;
+    margin-top: 34px;
+    width: 193px;
+    height: 42px;
+    padding: 2px;
+}
+
+.dreamnow a {
+    background: #fff;
+    float: left;
+    border-radius: 22px;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient-text {
+    background-color: #F372BD;
+    background-image: linear-gradient(90deg, #F372BD 0%, #0874C4 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    transition: all .2s;
+}
+
+.dreamnow p:hover {
+    background-color: #F372BD;
+    background-image: linear-gradient(90deg, #0874C4 0%, #F372BD 100%);
+}
+
+.wives {
+    background: linear-gradient(90deg, rgba(243, 114, 189, .05) 0%, rgba(8, 116, 196, .05) 100%);
+    border-radius: 24px;
+    margin-top: 36px;
+    padding: 52px 30px;
+}
+
+.darkgradiant {
+    background: linear-gradient(90deg, rgba(243, 114, 189, .05) 0%, rgba(8, 116, 196, .05) 100%);
+    border-radius: 16px;
+}
+
+.wife {}
+
+.wife>div {
+    background-color: #F372BD;
+    background-image: linear-gradient(90deg, #F372BD 0%, #0874C4 100%);
+    background-size: 100%;
+    padding: 2px;
+    border-radius: 12px;
+}
+
+.wifeinfo {
+    background: #555555;
+    border-radius: 12px;
+    padding: 7px;
+    position: relative;
+}
+
+.wifeinfo img {
+    border-radius: 7px;
+}
+
+.wifeinfo p {
+    padding: 14px 6px;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.wifeinfo span {
+    padding: 6px 3px;
+    display: block;
+}
+
+.wifeinfo .love {
+    position: absolute;
+    left: 12px;
+    top: 16px;
+}
+
+.dislike {
+    background: #ffffff url(../images/dislike.svg) no-repeat center;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    margin: 0 4px;
+    transition: all .2s;
+}
+
+.dislike:hover {
+    background: #f0f0f0 url(../images/dislike.svg) no-repeat center;
+}
+
+.wifeinfo .dislike {
+    position: absolute;
+    left: 12px;
+    top: 50px;
+}
+
+.slide {}
+
+.slide .carousel-control {
+    top: -40px;
+    left: 40px;
+    width: 28px;
+    background: none;
+    height: 21px;
+}
+
+.slide .left {}
+
+.slide .right {
+    right: auto;
+    left: 84px;
+}
+
+.specform {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-top: 25px;
+}
+
+.specform .form-group {
+    background: #555555;
+    border-radius: 10px;
+    padding: 6px;
+    border-radius: 14px;
+    height: 52px;
+}
+
+.specform .form-group>input {
+    width: 53%;
+    border-radius: 9px;
+    background: none;
+    /*! font-weight: normal !important; */
+    color: #fff;
+    padding: 10px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.mainlabel {
+    width: 47%;
+    float: right;
+    font-weight: normal;
+    padding: 10px 7px;
+    margin-bottom: 0;
+}
+
+.form-control,
+.multiselect {
+    background: #555555;
+    color: #fff;
+    border-radius: 9px;
+    height: 40px;
+    width: 53%;
+}
+
+.pets-name label,
+.pets-breed label,
+.pets-birthday label,
+.pets-multioption label,
+.pets-spayed-neutered label,
+.pets-weight label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.right-container label,
+.right-container input,
+.right-container .pets-photo {
+    width: 176px;
+}
+
+.right-container input,
+.right-container label {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.radio-container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 5px 0px;
+    height: 40px;
+    background: #555555;
+    width: 53%;
+    border-radius: 7px;
+    border: 1px solid #bdbdbd;
+    text-align: center;
+}
+
+.radio-container input[type="radio"]:checked+label {
+    background: #8C68CA;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.radio-container label {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: inline-block;
+    height: 100%;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+    width: 47%;
+    border-radius: 6px;
+    font-weight: normal;
+    font-size: 12px;
+    background: #888;
+    cursor: pointer;
+}
+
+.skincolor {}
+
+.skincolor .radio-container label {
+    width: 18%;
+}
+
+.skincolor .radio-container input[type="radio"]:checked+label {
+    position: relative;
+}
+
+.skincolor .radio-container input[type="radio"]:checked+label::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    width: 30px;
+    height: 30px;
+    background: url(../images/check.png) no-repeat;
+    background-size: 17px;
+}
+
+.skincolor .radio-container input[type="checkbox"]:checked+label {
+    position: relative;
+}
+
+.skincolor .radio-container input[type="checkbox"]:checked+label::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    width: 30px;
+    height: 30px;
+    background: url(../images/check.png) no-repeat;
+    background-size: 17px;
+}
+
+.multiselect-native-select,
+.multiselect-container,
+.btn-group {
+    background: #555555;
+    color: #fff;
+    border-radius: 9px;
+    height: 40px;
+    width: 53%;
+}
+
+.multiselect {
+    width: 100%;
+}
+
+.multiselect-container {
+    width: 100%;
+    max-height: 280px;
+    width: auto;
+    overflow: scroll;
+    height: auto;
+}
+
+.multiselect-container>li.multiselect-group label {
+    color: #fff;
+    padding: 9px;
+}
+
+.multiselect-container>li>a>label {
+    color: #fff;
+    padding: 5px 46px;
+}
+
+.multiselect-container>li.multiselect-group label b {
+    font-weight: normal;
+    font-size: 16px;
+    font-family: medium;
+}
+
+.input-group-addon {
+    display: none;
+}
+
+.gj-picker-bootstrap {
+    background: #333;
+}
+
+.gj-datepicker {
+    width: 53%;
+}
+
+.gj-datepicker>input {
+    border-radius: 9px !important;
+}
+
+.submitspec {
+    background: #8C68CA;
+    border: 1px solid #8C68CA;
+    float: left;
+    margin-left: 17px;
+    margin-top: 14px;
+    padding: 7px 45px;
+    border-radius: 9px;
+    font-weight: normal;
+    font-family: light;
+    transition: all .2s;
+}
+
+.submitspec:hover {
+    background: #714cb1;
+    border: 1px solid #714cb1;
+}
+
+.addspec {
+    background: url(../images/add.svg) no-repeat right center;
+    float: right;
+    background-size: 20px;
+    margin-top: 14px;
+    margin-right: 22px;
+    padding: 10px 27px;
+    cursor: pointer;
+}
+
+.deletethis {
+    background: url(../images/close.svg) no-repeat right center;
+    cursor: pointer;
+    position: absolute;
+    top: -8px;
+    right: 22px;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.h2-main {
+    padding: 6px 18px;
+    font-size: 15px;
+}
+
+.h3-main {
+    color: #EE72BD;
+    font-size: 11px;
+    padding: 0px 18px;
+    margin-bottom: 14px;
+}
+
+hr.line {
+    border-top: 1px solid #6d6d6d;
+}
+
+.femaleprofile {
+    margin-bottom: 30px;
+}
+
+.femaleprofile .profileimg {}
+
+.femaleprofile .dreamnow {
+    text-align: left;
+    float: left;
+    margin-left: 22px;
+}
+
+.socialcontainer a {
+    margin-right: 11px;
+    margin-top: 34px;
+    float: left;
+}
+
+.socialcontainer a span {}
+
+.socialicon2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all .2s;
+    margin-right: 11px;
+    margin-top: 34px;
+    display: block;
+}
+
+.socialcontainer {
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+}
+
+.socialcontainer>div {
+    float: left;
+}
+
+.socialicon2 span {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all .2s;
+    display: block;
+}
+
+.socialicon2:hover {
+    opacity: .8;
+}
+
+.femaleprofile .dreamnow a span {}
+
+.instgram span {
+    background: url(../images/logo-instagram.svg) no-repeat center;
+}
+
+.twitter span {
+    background: url(../images/logo-twitter.svg) no-repeat center;
+}
+
+.snapchat span {
+    background: url(../images/logo-snapchat.svg) no-repeat center;
+    background-size: 14px;
+}
+
+.whatsapp span {
+    background: url(../images/logo-whatsapp.svg) no-repeat center;
+}
+
+.linkedin span {
+    background: url(../images/logo-linkedin.svg) no-repeat center;
+}
+
+.instgram {
+    background: linear-gradient(180deg, #4C63CD 0%, #E23767 53.95%, #FECF6E 100%);
+}
+
+.twitter {
+    background: #1DA1F2;
+}
+
+.snapchat {
+    background: #FFFC01;
+}
+
+.whatsapp {
+    background: #28AF18;
+}
+
+.linkedin {
+    background: #1060A6;
+}
+
+.linkedin {
+    background: #1060A6;
+}
+
+.emaillink {
+    background: #fff;
+}
+
+.emaillink span {
+    background: url(../images/email.svg) no-repeat center;
+    background-size: 22px;
+}
+
+.editform {}
+
+.editform .profileimg {
+    width: 104px;
+    margin: auto;
+}
+
+.editformcontainer {}
+
+.editformcontainer h4 {
+    font-size: 12px;
+    margin-top: 24px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.editformcontainer {}
+
+.editformcontainer form {
+    overflow: hidden;
+}
+
+.editformcontainer .form-group {
+    border-radius: 14px;
+}
+
+.editformcontainer .form-group input {
+    width: 100%;
+    border-radius: 9px;
+    background: none;
+    font-weight: normal !important;
+    color: #fff;
+    padding: 10px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.editform>div {
+    position: relative;
+    top: -70px;
+    padding: 0 80px;
+}
+
+.editform .submitspec {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.hidemobile {
+    position: relative;
+}
+
+.hidemobile label {
+    font-weight: normal;
+    font-family: light;
+    font-size: 12px;
+    border: 1px solid #bfbfbf;
+    color: #bfbfbf;
+    padding: 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: #525252 url(../images/hide.svg) no-repeat right 5px center;
+    padding-right: 24px;
+    cursor: pointer;
+}
+
+.hidemobile input[type="text"] {
+    padding-right: 112px;
+}
+
+.hidemobile input[type="checkbox"] {}
+
+.hidemobile input[type="checkbox"]:checked+label {
+    background: #8C68CA url(../images/hide.svg) no-repeat right 5px center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.socialinput {}
+
+.socialinput>div {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.socialinput a {
+    position: absolute;
+    top: 7px;
+    right: 26px;
+    width: 26px;
+    height: 26px;
+    margin: 0;
+}
+
+.socialinput input {
+    padding-right: 48px !important;
+}
+
+.terms {
+    padding: 10px 50px;
+}
+
+.terms h4 {}
+
+.terms p {
+    font-family: light;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: right;
+}
+
+.terms ul {}
+
+.terms ul li {}
+
+.signin {
+    text-align: center;
+}
+
+.signin>div {
+    padding: 0 80px;
+    float: none;
+    margin: auto;
+}
+
+.signin .editformcontainer h4 {
+    margin-bottom: 22px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.login-google {
+    background: #fff;
+    width: 100%;
+    display: block;
+    line-height: 43px;
+    border-radius: 8px;
+}
+
+.login-google span {
+    background: url(../images/google.svg) no-repeat right center;
+    padding-right: 32px;
+    color: #1976D2;
+    display: inline-block;
+}
+
+.spaces {}
+
+.didgorget {
+    color: #fff;
+    float: right;
+    font-size: 12px;
+}
+
+.signin .submitspec {
+    width: 100%;
+    font-family: regular;
+    padding: 10px 45px;
+    margin-left: 0;
+    margin-top: 29px;
+}
+
+.didhaveaccount {
+    color: #fff;
+    font-family: light;
+    margin-top: 12px;
+}
+
+.didhaveaccount a {
+    color: #EE72BD;
+}
+
+.signin .editformcontainer {
+    margin: 100px 0;
+}
+
+.signin .hidemobile label {
+    top: 6px;
+    right: auto;
+    left: 6px;
+}
+
+.signin .hidemobile input[type="text"] {
+    padding-right: 10px;
+}
+
+.checked-label {
+    background: #8C68CA url(../images/hide.svg) no-repeat right 5px center !important;
+    border: 1px solid #8C68CA !important;
+}
+
+.mobileintro {
+    position: relative;
+}
+
+.mobileintro span {
+    position: absolute;
+    left: 13px;
+    text-align: left;
+    direction: ltr;
+    top: 10px;
+    color: #A0A0A0;
+}
+
+.mobileintro input {
+    text-align: left;
+    direction: ltr;
+    padding-left: 62px !important;
+}
+
+.signup .radio-container {
+    padding: 0;
+    background: none;
+    width: 100%;
+    border: none;
+}
+
+.signup .radio-container label {
+    float: right;
+    border-radius: 9px;
+    line-height: 30px;
+    height: auto;
+    padding: 6px 5px;
+}
+
+.signup .radio-container label:last-child {
+    float: left;
+}
+
+.signup .radio-container label {
+    float: right;
+    border-radius: 9px;
+    line-height: 30px;
+    height: auto;
+    padding: 6px 5px;
+}
+
+.signup .radio-container label i {
+    background: url(../images/male2.svg) no-repeat;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.signup .radio-container input[type="radio"]:checked+label.female2 {
+    background: #F372BD;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.signup .radio-container input[type="radio"]:checked+label.male2 {
+    background: #0874C4;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hint {
+    font-family: light;
+    font-size: 12px;
+}
+
+.forgetpass .submitspec {
+    margin-top: 6px;
+}
+
+.whatforget {}
+
+.whatforget img {}
+
+.whatforget h4 {}
+
+.whatforget div {
+    margin-top: 12px;
+    clear: both;
+}
+
+.whatforget div a {
+    background: #fff;
+    padding: 11px 58px;
+    margin: 7px 5px;
+    border-radius: 9px;
+    display: inline-block;
+    color: #8C68CA;
+}
+
+.whatforget div a:hover {
+    background: rgb(241, 241, 241);
+}
+
+.whatforget div a:first-child {
+    background: #8C68CA;
+    color: #fff;
+}
+
+.whatforget div a:first-child:hover {
+    background: #7252aa;
+}
+
+.sortform .mainlabel {
+    position: relative;
+    padding-right: 34px;
+}
+
+.sortform .mainlabel::before {
+    background: url(../images/dashmove.svg) no-repeat;
+    content: "";
+    top: 9px;
+    right: 3px;
+    position: absolute;
+    width: 29px;
+    height: 28px;
+}
+
+.input-group {
+    width: 80%;
+    height: auto;
+    padding: 4px;
+}
+
+.progress {
+    height: 4px;
+}
+
+.progress-bar {
+    background-color: green;
+}
+
+.whatforget h5 {
+    margin-bottom: 11px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 15px;
+    color: #8C68CA;
+}
+
+.whatforget p {}
+
+.bottomlink {}
+
+.bottomlink .addspec {
+    margin-right: 0;
+    font-size: 12px;
+    color: #eeeeee;
+}
+
+.bottomlink .addspec:last-child {
+    float: left;
+    padding-left: 0;
+}
+
+.choosegender span {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+}
+
+.choosegender>a img:hover {
+    filter: brightness(100%);
+}
+
+.pay {
+    padding: 60px;
+}
+
+.subinfo {
+    margin-top: ;
+    border-radius: 36px;
+    padding: 50px;
+}
+
+.subinfo>p {
+    font-size: 19px;
+}
+
+.subinfo ol {
+    list-style: decimal;
+}
+
+.subinfo ol li {}
+
+.subinfo ol li p {
+    font-family: light;
+    font-size: 13px;
+}
+
+.pay .whatforget {
+    text-align: center;
+}
+
+.profileimg>div {}
+
+.text .input-group {
+    width: 53%;
+}
+
+.text .input-group {
+    width: 53%;
+    margin-top: -3px;
+}
+
+.img-contain {
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    width: 100px;
+    height: 100px;
+}
+
+.img-contain img {}
+
+.linkside .links a {
+    transition: all .2s;
+}
+
+.linkside .links a:hover {
+    color: #fff !important;
+}
+
+.linkside .links a svg path {
+    transition: all .2s;
+}
+
+.linkside .links a:hover svg path {
+    fill: #8C68CA;
+}
+
+.linkside .links a.active svg path {
+    fill: #8C68CA;
+}
+
+.logo>a {
+    float: right;
+    display: block;
+    overflow: hidden;
+    height: 120px;
+    z-index: 10000;
+    position: relative;
+}
+
+.editformcontainer {}
+
+.editformcontainer .form-check {
+    text-align: right;
+    font-weight: normal;
+    margin-bottom: 9px;
+}
+
+.editformcontainer .form-check label {
+    font-weight: normal;
+    font-size: 11px;
+}

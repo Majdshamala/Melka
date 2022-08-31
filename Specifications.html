@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/ico.ico">
+
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/bootstrap-multiselect.css" rel="stylesheet" />
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/MediaQuery.css" rel="stylesheet" />
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title> موقع ملكة </title>
+
+
+    <!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+
+                <nav class="navbar navbar-default">
+                    <div>
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse linkside" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav links">
+                                <li class="nav-item">
+                                    <a class="active" href="home.html">الرئيسية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">النتائج</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><img src="images/profilieicon.svg" alt=""></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><img src="images/settingicon.svg" alt=""></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a href="#" role="button" data-toggle="dropdown">
+                                        <img src="images/notificon.svg" alt="">
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">اشعار 1</a></li>
+                                        <li><a href="#">اشعار 2</a></li>
+                                        <li><a href="#">اشعار 3</a></li>
+                                    </ul>
+
+
+
+
+                                    <i class="fas fa-cloud"></i>
+
+
+
+
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="body">
+
+        <div class="container">
+            <div class="row">
+                <div class="infochoose">
+                    <div class="infochoosep">
+                        <p>مواصفاتك</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearb">
+        </div>
+
+        <div class="container darkgradiant specform">
+            <form class="addsuggestion">
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">تاريخ الميلاد</label>
+                            <input id="datepicker" />
+                        </div>
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">الجنسية</label>
+                            <input type="text" class="form-control" id="text1" placeholder="الجنسية">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">مدينة السكن</label>
+                            <input type="text" class="form-control" id="text1" placeholder="مدينة السكن">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">إقامة الأهل</label>
+                            <input type="text" class="form-control" id="text1" placeholder="إقامة الأهل">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">المنطقة</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>شمالية</option>
+                                <option>شمالية</option>
+                                <option>شمالية</option>
+                                <option>شمالية</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group">
+                            <div class="pets-multioption">
+                                <label class="mainlabel" for="pet-option1">النسب</label>
+                                <div class="radio-container">
+                                    <input style="display: none;" checked="" id="pet-option1" name="pet-family" type="radio" value="قبيلي">
+                                    <label for="pet-option1">قبيلي</label>
+                                    <input style="display: none;" id="pet-option2" name="pet-family" type="radio" value="تميمي">
+                                    <label for="pet-option2">تميمي</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">الطول</label>
+                            <input type="text" class="form-control" id="text1" placeholder="الطول">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">الوزن</label>
+                            <input type="text" class="form-control" id="text1" placeholder="الوزن">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group">
+                            <div class="pets-multioption skincolor">
+                                <label class="mainlabel" for="pet-option3">لون البشرة</label>
+                                <div class="radio-container">
+                                    <input style="display: none;" checked="" id="pet-option3" name="pet-color" type="radio" value="ابيض">
+                                    <label for="pet-option3" style="background: #E7BA93;"></label>
+                                    <input style="display: none;" id="pet-option4" name="pet-color" type="radio" value="بني">
+                                    <label for="pet-option4" style="background: #EDBB8A;"></label>
+                                    <input style="display: none;" id="pet-option5" name="pet-color" type="radio" value="بني">
+                                    <label for="pet-option5" style="background: #BC956C;"></label>
+                                    <input style="display: none;" id="pet-option6" name="pet-color" type="radio" value="بني">
+                                    <label for="pet-option6" style="background: #8D512D;"></label>
+                                    <input style="display: none;" id="pet-option7" name="pet-color" type="radio" value="بني">
+                                    <label for="pet-option7" style="background: #523F38;"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group">
+                            <div class="pets-multioption skincolor">
+                                <label class="mainlabel" for="pet-option8"> 2 لون البشرة</label>
+                                <div class="radio-container">
+                                    <input style="display: none;" checked="" id="pet-option8" name="pet-color-check" type="checkbox" value="ابيض">
+                                    <label for="pet-option8" style="background: #E7BA93;"></label>
+                                    <input style="display: none;" id="pet-option9" name="pet-color-check" type="checkbox" value="بني">
+                                    <label for="pet-option9" style="background: #EDBB8A;"></label>
+                                    <input style="display: none;" id="pet-option10" name="pet-color-check" type="checkbox" value="بني">
+                                    <label for="pet-option10" style="background: #BC956C;"></label>
+                                    <input style="display: none;" id="pet-option11" name="pet-color-check" type="checkbox" value="بني">
+                                    <label for="pet-option11" style="background: #8D512D;"></label>
+                                    <input style="display: none;" id="pet-option12" name="pet-color-check" type="checkbox" value="بني">
+                                    <label for="pet-option12" style="background: #523F38;"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">الأكل</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>دجاج</option>
+                                <option>دجاج</option>
+                                <option>دجاج</option>
+                                <option>دجاج</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">الحالة الصحية</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>حالة جلدية</option>
+                                <option>حالة جلدية</option>
+                                <option>حالة جلدية</option>
+                                <option>حالة جلدية</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">اللحية</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>غير ملتحي</option>
+                                <option> ملتحي</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">الدرحة العلمية</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>بكالوريوس</option>
+                                <option>بكالوريوس</option>
+                                <option>بكالوريوس</option>
+                                <option>بكالوريوس</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">التخصص</label>
+                            <select id="option-droup-demo" class="multiselectclass" multiple="multiple">
+                                <optgroup label="تصميم">
+                                    <option value="jQuery">تصميم جرافيك</option>
+                                    <option value="Bootstrap">موشن</option>
+                                    <option value="HTML" selected="selected">فرونت اند</option>
+                                    <option value="Angular" disabled>Angular</option>
+                                </optgroup>
+                                <optgroup label="برمجة">
+                                    <option value="Java">Java</option>
+                                    <option value="csharp">C#</option>
+                                    <option value="Python" disabled>Python</option>
+                                </optgroup>
+                                <optgroup label="تسويق">
+                                    <option value="MySQL">MySQL</option>
+                                    <option value="Oracle">Oracle</option>
+                                    <option value="MSSQL">MS SQL Server</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">التخصص</label>
+                            <select id="option-droup-demo" class="multiselectclass" multiple="multiple">
+                                <optgroup label="تصميم">
+                                    <option value="jQuery">تصميم جرافيك</option>
+                                    <option value="Bootstrap">موشن</option>
+                                    <option value="HTML" selected="selected">فرونت اند</option>
+                                    <option value="Angular" disabled>Angular</option>
+                                </optgroup>
+                                <optgroup label="برمجة">
+                                    <option value="Java">Java</option>
+                                    <option value="csharp">C#</option>
+                                    <option value="Python" disabled>Python</option>
+                                </optgroup>
+                                <optgroup label="تسويق">
+                                    <option value="MySQL">MySQL</option>
+                                    <option value="Oracle">Oracle</option>
+                                    <option value="MSSQL">MS SQL Server</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">تخصص جديد </label>
+                            <select id="option-droup-demo2" class="multiselectclass" multiple="multiple">
+
+
+                                    <option value="jQuery">تصميم جرافيك</option>
+                                    <option value="Bootstrap">موشن</option>
+                                    <option value="HTML" selected="selected">فرونت اند</option>
+                                    <option value="Angular" disabled>Angular</option>
+
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">نوع الوظيفة</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>عمل حر</option>
+                                <option>عمل حر</option>
+                                <option>عمل حر</option>
+                                <option>عمل حر</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group dropdown">
+                            <label class="mainlabel" for="exampleFormControlSelect1">المسمى الوظيفي</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>مدير</option>
+                                <option>مدير</option>
+                                <option>مدير</option>
+                                <option>مدير</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">عدد ساعات العمل</label>
+                            <input type="text" class="form-control" id="text1" placeholder="عدد الساعات">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="form-group text">
+                            <label class="mainlabel" for="text1">القروض</label>
+                            <input type="text" class="form-control" id="text1" placeholder="الإجابة">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <p class="addspec">
+                    اقترح مواصفات إضافية
+                </p>
+
+                <button type="submit" class="btn btn-primary submitspec">حفظ</button>
+
+            </form>
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+    </div>
+
+    <footer>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 companyinfo">
+                        <div class="logo">
+                            <a class="" href="#">
+                                <img src="images/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <p>حلول مبتكرة بتصميم عصري لموقع إلكتروني متخصص بالبحث عن شريك الحياة</p>
+                    </div>
+                    <div class="col-md-4 footerlink">
+                        <a href="#">الشروط والأحكام</a>
+                        <a href="#">سياسة الخصوصية</a>
+                        <a href="#">الأسئلة الشائعة</a>
+                    </div>
+                    <div class="col-md-4 subscribtion">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="البريد الإلكتروني">
+                            <span class="input-group-btn">
+                                <button class="btn btn-theme" type="submit">اشتراك</button>
+                            </span>
+                        </div>
+
+                        <div class="socialicon">
+                            <a href="#"> <img style="width: 18px;" src="images/whatsapp.svg"> </a>
+                            <a href="#"> <img src="images/telephone.svg"> </a>
+                            <a href="#"> <img src="images/instagram.svg"> </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>جميع الحقوق محفوظة لملكة 2022</p>
+        </div>
+
+    </footer>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/animate.css" rel="stylesheet" />
+    <script src="js/bootstrap-multiselect.js"></script>
+
+
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <script src="js/main.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+
+        });
+    </script>
+</body>
+
+</html>
